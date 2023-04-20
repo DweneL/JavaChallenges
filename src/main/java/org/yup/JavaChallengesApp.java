@@ -47,7 +47,14 @@ public class JavaChallengesApp {
 
         //System.out.println(challenges.convertToLowercase());
 
-        System.out.println(challenges.lengthOfWord());
+       // System.out.println(challenges.lengthOfWord());
+
+
+        //challenges.countToTen();
+        //challenges.countFromten();
+        //challenges.increOftwo();
+        challenges.evenNumbers();
+
 
     }
 }

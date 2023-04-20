@@ -55,7 +55,7 @@ public class Challenges {
         return  number1 + number2;
     }
 
-    //create a method like the above for subtractin two numbers multiply 2 numbers
+    //create a method like the above for subtracting two numbers multiply 2 numbers
     public int subtractTwoNumbers() {
 
         Scanner theScanner = new Scanner(System.in);
@@ -212,7 +212,7 @@ public class Challenges {
         return "You provided, " + theWord + " and we converted it to: " + theWord.toLowerCase();
     }
 
-    // lengthofWord - return something that lets us know how long the word provided was/is
+    // lengthOfWord - return something that lets us know how long the word provided was/is
 
     public String lengthOfWord(){
         Scanner theScanner = new Scanner(System.in);
@@ -222,5 +222,69 @@ public class Challenges {
         return "You provided" + theWord + " and the length of it is: " + theWord.length();
 
     }
+
+    public void countToTen(){
+
+        for(int i = 1; i <=1000000; i ++){
+            //run some code
+            System.out.println(i);
+
+
+
+        }
+
+
+    }
+
+
+    //Make a method that counts from 10 to 1
+    public void countFromten(){
+
+        for(int i = 10; i >= 1; i--){
+            System.out.println(i);
+
+        }
+    }
+
+    //make a method that counts from 1-100 but in increments of 2
+    public void increOftwo(){
+
+        int i = 1;
+
+        int x = ++i;
+        System.out.println("the value of x is:" + x);
+        System.out.println("the value of i is " + i);
+
+       // for(int i = 2; i<=100; i+=2){
+       //     System.out.println(i);
+       // }
+    }
+
+    //make a method that counts from 0-50 but only prints even numbers
+    public void evenNumbers(){
+      //  for(int i = 0; i <= 50; i+=2){
+        //    System.out.println(i);
+       // }
+
+       // int i = 0;
+        //while (i <=50){
+           // if (i % 2 == 0){
+                // != to get odd
+           //     System.out.println(i);
+          //  }
+
+         //       i++;
+      //  }
+
+
+        for (int i=0; i<=50; i++){
+            if(i % 2 != 0){
+                System.out.println(i);
+            }
+        }
+    }
+
+    
+
 }
 
